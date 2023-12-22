@@ -89,4 +89,63 @@ nav .loghis .hisse button {
 .sect1 .sagsol .sol button {
   width: 120px;
   height: 30px;
+}
+
+.sect2 {
+  padding: 30px 0;
+  width: 100%;
+  background-color: dimgray;
+}
+.sect2 .bauc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sect2 .bauc .bash {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+}
+.sect2 .bauc .uclu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.sect2 .bauc .uclu div {
+  max-width: calc(33% - 20px);
+  flex: 1 1 calc(33% - 20px);
+}
+.sect2 .bauc .uclu div img {
+  width: 77px;
+  height: 60px;
+}
+
+.sect3 {
+  width: 100%;
+}
+.sect3 .sol {
+  position: relative;
+  width: 50%;
+}
+.sect3 .sol .info {
+  background: #10C98F;
+  display: inline-block;
+  padding: 63px 47px;
+  position: absolute;
+  bottom: -50px;
+}
+.sect3 .sol .info p {
+  color: #fff;
+  margin: 0;
+  font-size: 16px;
+}
+.sect3 .sol .head-cap {
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,23 @@
+.sect3{
+    width: 100%;
+    .sol{
+        position: relative;
+        width:50%;
+        .info {
+            background: #10C98F;
+            display: inline-block;
+            padding: 63px 47px;
+            position: absolute;
+            bottom: -50px;
+
+             p {
+                color: #fff;
+                margin: 0;
+                font-size: 16px;
+            }
+        }
+    .head-cap { 
+        text-align: center;
+    }
+    }
+}
